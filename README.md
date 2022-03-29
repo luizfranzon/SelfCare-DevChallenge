@@ -6,5 +6,5 @@ Este desafio do <a href="https://www.devchallenge.com.br/challenges/5f14fad2130a
 
 - [ ] Deixar o site responsivo.
 
-<p align="center">Projeto: <a href="https://luizfranzon.github.io/SelfCare-DevChallenge/index.html">Abrir no github pages</a></p>
+<p align="center"><strong>Projeto</strong>: <a href="https://luizfranzon.github.io/SelfCare-DevChallenge/index.html">Abrir no github pages</a></p>
 <img src="./assets/projeto.png">
