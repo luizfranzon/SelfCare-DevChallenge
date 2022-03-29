@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 25px 10px;
+}
+
+.header-logo {
+    font-family: Cabin, sans-serif;
+    margin-left: 10px;
+}
+
+ul > img {
+    margin-left: 25px;
+}
+
+.logo-section {
+    display: flex;
+}
+
+.banner {
+    background-image: url(assets/banner.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    height: 375px;
+}
+
+.products-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px 10px;
+
+    border-bottom: #a5a1a152 solid 1px;
+}
+
+.promotion {
+    font-family: Lato, sans-serif;
+    font-weight: bold;
+}
+
+.products-items {
+
+    font-family: Lato, sans-serif;
+}
+
+.main {
+    height: 500px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-up {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #F9F9F9;
+    height:230px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-down {
+    border-top: #a5a1a152 solid 1px;;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F9F9F9;
+    padding: 30px 0px;
+}
+
+.newsletter {
+    font-family: Lato, sans-serif;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.social-media {
+    cursor: pointer;
+}
+
+.footer-down-left, .footer-down-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-links-link {
+    font-family: Lato, sans-serif;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.button {
+    font-family: Lato, sans-serif;
+    font-weight: bold;
+    background-color: #5ca720;
+    color: white;
+
+    height: 45px;
+    width: 100px;
+}
+
+input {
+    padding: 15px 15px;
+    font-family: Lato, sans-serif;
+    outline: none;
+    width: 300px;
+}
